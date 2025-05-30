@@ -13,7 +13,7 @@
 
 - name: PLAY2
   hosts: local
-  connetion: local
+  connection: local
   tasks:
   - name: hello from play 2 and task1
     ansible.builtin.debug:
