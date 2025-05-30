@@ -5,10 +5,10 @@
     GREETING: "Hello from PLAY"
   # vars_files:
   # - course.yaml
-  vars_prompt:
-  - name: GREETING
-    prompt: please enter the GREETING
-    private: false
+  # vars_prompt:
+  # - name: GREETING
+  #   prompt: please enter the GREETING
+  #   private: false
   tasks:
   - name: print the GREETING
     # vars:
@@ -20,4 +20,4 @@
   # 1. commandline args
   # 2. from Task
   # 3. from file
-  # 4. from
+  # 4. from Prompt
